@@ -9,6 +9,7 @@ function App() {
   const [tenzies, setTenzies] = useState(false);
   const [rollCount, setRollCount] = useState(0);
   const [timer, setTimer] = useState(0);
+  const [startGame, setStartGame] = useState(false);
   const [bestVal, setBestVal] = useState(
     JSON.parse(localStorage.getItem("userTime")) || 1000
   );
@@ -58,6 +59,7 @@ function App() {
     );
   };
   const newGame = () => {
+    setStartGame(true);
     setRandomNum(allNewDice);
     setTenzies(false);
     setRollCount(0);
@@ -95,8 +97,8 @@ function App() {
           <h1 style={{ color: "blue" }}>Tenzies</h1>
         )}
         <h4>
-          Roll untill all dice are the same. Click each die to freeze it at its
-          current value between rolls.
+          Roll the dices untill all dice are same. Click each die to freeze it
+          at its current value between rolls.
         </h4>
         <div className="dice-container">
           {randomNum.map((diceVal) => (
@@ -122,7 +124,7 @@ function App() {
             </button>
             <h2 className="best-score">Best Score is : {bestVal}</h2>
           </div>
-        ) : (
+        ) : startGame ? (
           <div className="btn-container">
             <div className="counter-container">
               <h2 className="roll-count">Roll Count : {rollCount}</h2>
@@ -133,6 +135,10 @@ function App() {
             </button>
             <h2 className="best-score">Best Score is : {bestVal}</h2>
           </div>
+        ) : (
+          <button className="roll-btn" onClick={newGame}>
+            Start
+          </button>
         )}
       </div>
     </main>
