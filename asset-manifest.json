@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6d4a0c4.css",
-    "main.js": "/static/js/main.09d7ed9f.js",
-    "static/js/787.030a1986.chunk.js": "/static/js/787.030a1986.chunk.js",
-    "index.html": "/index.html",
-    "main.c6d4a0c4.css.map": "/static/css/main.c6d4a0c4.css.map",
-    "main.09d7ed9f.js.map": "/static/js/main.09d7ed9f.js.map",
-    "787.030a1986.chunk.js.map": "/static/js/787.030a1986.chunk.js.map"
+    "main.css": "/tenziesgame/static/css/main.c6d4a0c4.css",
+    "main.js": "/tenziesgame/static/js/main.dcb40d50.js",
+    "static/js/787.b3cca377.chunk.js": "/tenziesgame/static/js/787.b3cca377.chunk.js",
+    "index.html": "/tenziesgame/index.html",
+    "main.c6d4a0c4.css.map": "/tenziesgame/static/css/main.c6d4a0c4.css.map",
+    "main.dcb40d50.js.map": "/tenziesgame/static/js/main.dcb40d50.js.map",
+    "787.b3cca377.chunk.js.map": "/tenziesgame/static/js/787.b3cca377.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6d4a0c4.css",
-    "static/js/main.09d7ed9f.js"
+    "static/js/main.dcb40d50.js"
   ]
 }
