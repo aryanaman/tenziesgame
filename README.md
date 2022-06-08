@@ -13,12 +13,13 @@ Here is a working live demo : https://aryanaman.github.io/tenziesgame
 
 ## Site glimpses
 
-<span>
-<img src="https://github.com/aryanaman/tenziesgame/blob/master/public/git_img1.png?raw=true" width="500" height="500" />
-</span>
-<span>
-<img src="https://github.com/aryanaman/tenziesgame/blob/master/public/git_img2.png?raw=true" width="500" height="500" />
-</span>
+<p align="center">
+<img src="https://github.com/aryanaman/tenziesgame/blob/master/public/git_img1.png?raw=true" width="650" height="500" />
+</p>
+<p align="center">
+<img src="https://github.com/aryanaman/tenziesgame/blob/master/public/git_img2.png?raw=true" width="650" height="500" />
+</p>
+
 
 ## How To Use
 To clone and run this application, you'll need **Git** and **Node.js** (which comes with npm) installed on your computer. From your command line:
