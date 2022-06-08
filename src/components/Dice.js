@@ -8,11 +8,11 @@ function Dice(props) {
   };
   return (
     <div className="dice" onClick={props.holdDice}>
-      <img src={`./Terning${props.value}.svg`} style={styles} alt="dice_img" />
-      {/* <h2 className="dice-num" style={styles}>
+      {/* <img src={`./Terning${props.value}.svg`} style={styles} alt="dice_img" /> */}
+      <h2 className="dice-num" style={styles}>
         {" "}
         {props.value}
-      </h2> */}
+      </h2>
     </div>
   );
 }
